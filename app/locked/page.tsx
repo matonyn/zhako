@@ -1,5 +1,3 @@
-import BrandMark from '@/components/BrandMark'
-
 export const metadata = {
   title: 'Archive locked',
   robots: { index: false, follow: false, nocache: true },
@@ -9,8 +7,7 @@ export default function LockedPage() {
   return (
     <div className="hero-shell relative flex min-h-screen items-center overflow-hidden px-6 py-16">
       <div className="mx-auto w-full max-w-3xl">
-        <BrandMark />
-        <p className="hero-kicker mt-8 text-xs font-semibold uppercase tracking-[0.36em]">
+        <p className="hero-kicker text-xs font-semibold uppercase tracking-[0.36em]">
           Welcome to
         </p>
         <h1 className="mt-3 font-heading text-4xl font-extrabold leading-[1.05] text-white sm:text-5xl">
