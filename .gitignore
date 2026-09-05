@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# next
+.next/
+out/
+
+# env / secrets
+.env
+.env*.local
+
+# os / editor
+.DS_Store
+.superpowers/
+
+# vercel
+.vercel
+node_modules/
+.next/
+.env*.local
+.DS_Store
