@@ -14,10 +14,17 @@ module.exports = {
           100: '#efeeec',
           500: '#111113',
         },
+        shell: {
+          red: '#DD1D21',
+          'red-dark': '#A5161A',
+          yellow: '#FFD400',
+          navy: '#0B2136',
+        },
       },
       fontFamily: {
         serif: ['Libre Baskerville', 'Georgia', 'serif'],
         sans: ['Source Sans 3', 'system-ui', 'sans-serif'],
+        heading: ['Poppins', 'system-ui', 'sans-serif'],
       },
       keyframes: {
         'fade-in': { from: { opacity: '0' }, to: { opacity: '1' } },

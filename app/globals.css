@@ -30,11 +30,29 @@
   .font-serif {
     font-family: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
   }
+
+  .font-heading {
+    font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  }
 }
 
 .focus-ring:focus {
-  outline: 2px solid hsl(var(--ring));
+  outline: 2px solid #ffd400;
   outline-offset: 2px;
+}
+
+.hero-shell {
+  background:
+    radial-gradient(52% 46% at 80% 88%, rgba(255, 214, 84, 0.65), rgba(255, 214, 84, 0) 62%),
+    linear-gradient(165deg, #0b2136 0%, #1c3b52 32%, #6c5136 66%, #e8ac53 100%);
+}
+
+.hero-kicker {
+  color: #ffd400;
+}
+
+.hero-underline {
+  background-color: #ffd400;
 }
 
 @media (prefers-reduced-motion: reduce) {
