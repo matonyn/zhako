@@ -5,7 +5,6 @@ import stations from '@/data/posters'
 import StationSelector from '@/components/StationSelector'
 import PosterGrid from '@/components/PosterGrid'
 import PosterViewer from '@/components/PosterViewer'
-import BrandMark from '@/components/BrandMark'
 
 export default function ExplorePage() {
   const [active, setActive] = useState(1)
@@ -17,8 +16,7 @@ export default function ExplorePage() {
     <div className="relative min-h-screen overflow-hidden bg-white">
       <header className="hero-shell px-5 py-12 sm:py-16">
         <div className="mx-auto max-w-7xl">
-          <BrandMark />
-          <p className="hero-kicker mt-8 text-xs font-semibold uppercase tracking-[0.36em]">
+          <p className="hero-kicker text-xs font-semibold uppercase tracking-[0.36em]">
             Welcome to
           </p>
           <h1 className="mt-3 font-heading text-4xl font-extrabold leading-[1.05] text-white sm:text-5xl">
