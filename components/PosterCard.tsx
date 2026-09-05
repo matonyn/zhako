@@ -17,7 +17,7 @@ export default function PosterCard({
   return (
     <button
       onClick={onOpen}
-      className="group relative w-full overflow-hidden border border-neutral-200 bg-white/80 text-left transition-shadow duration-300 hover:border-neutral-300 hover:shadow-[0_10px_30px_-24px_rgba(0,0,0,0.5)] focus-ring"
+      className="group relative w-full overflow-hidden border border-neutral-200 bg-white/80 text-left transition-shadow duration-300 hover:border-shell-yellow hover:shadow-[0_10px_30px_-24px_rgba(0,0,0,0.5)] focus-ring"
       aria-label={`Open ${poster.title}`}
     >
       <div className="relative aspect-[3/4] w-full bg-[linear-gradient(180deg,rgba(250,250,248,1),rgba(241,241,238,1))]">
@@ -39,10 +39,10 @@ export default function PosterCard({
       <div className="flex items-start justify-between gap-3 px-4 py-4">
         <div>
           <div className="text-[11px] uppercase tracking-[0.28em] text-neutral-500">{station}</div>
-          <div className="mt-2 font-serif text-lg leading-snug text-neutral-950">{poster.title}</div>
+          <div className="mt-2 font-heading text-lg font-semibold leading-snug text-neutral-950">{poster.title}</div>
           <div className="mt-1 text-xs text-neutral-500">Poster {poster.id}</div>
         </div>
-        <div className="mt-1 rounded-full border border-neutral-200 px-2.5 py-1 text-[11px] uppercase tracking-[0.22em] text-neutral-500 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <div className="mt-1 rounded-full border border-shell-yellow bg-shell-yellow/10 px-2.5 py-1 text-[11px] uppercase tracking-[0.22em] text-shell-red-dark opacity-0 transition-opacity duration-300 group-hover:opacity-100">
           Open
         </div>
       </div>

@@ -14,7 +14,7 @@ export type Station = {
 export const stations: Station[] = [
   {
     station: 1,
-    title: "Station 1 - Shaping Group Direction",
+    title: "Shaping Group Direction",
     posters: [
       { id: "01", title: "Caravan", image: "/posters/station-01/1. Caravan" },
       { id: "02", title: "LNG Canada Phase 2", image: "/posters/station-01/2. LNG Canada Phase 2" },
@@ -24,7 +24,7 @@ export const stations: Station[] = [
   },
   {
     station: 2,
-    title: "Station 2 - Energy and Market Fundamentals",
+    title: "Energy and Market Fundamentals",
     posters: [
       { id: "05", title: "Global Power Fundamentals Analysis and Governance", image: "/posters/station-02/1. Global Power Fundamentals Analysis and Governance" },
       { id: "06", title: "Oil and Chemicals Screening Values", image: "/posters/station-02/2. Oil and Chemicals Screening Values" },
@@ -34,7 +34,7 @@ export const stations: Station[] = [
   },
   {
     station: 3,
-    title: "Station 3 - Market Engagement and External Insights",
+    title: "Market Engagement and External Insights",
     posters: [
       { id: "09", title: "Coordinating Shell’s Quarterly results presentations", image: "/posters/station-03/1. Coordinating Shell’s Quarterly results presentations" },
       { id: "10", title: "Shell – DRC Collaboration", image: "/posters/station-03/2. Shell – DRC Collaboration​" },
@@ -44,7 +44,7 @@ export const stations: Station[] = [
   },
   {
     station: 4,
-    title: "Station 4 - Data, digital and AI",
+    title: "Data, digital and AI",
     posters: [
       { id: "13", title: "OP26 Digital Transformation", image: "/posters/station-04/1. OP26 Digital Transformation" },
       { id: "14", title: "Strategy Fabric", image: "/posters/station-04/2. Strategy Fabric" },
@@ -54,7 +54,7 @@ export const stations: Station[] = [
   },
   {
     station: 5,
-    title: "Station 5 - Collaboration and Learning",
+    title: "Collaboration and Learning",
     posters: [
       { id: "17", title: "Learn and Engage Poster", image: "/posters/station-05/1. Learn and Engage Poster" },
       { id: "18", title: "AI in SCA, Coaching the community on AI use", image: "/posters/station-05/2. AI in SCA, Coaching the community on AI use_" },

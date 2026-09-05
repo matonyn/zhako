@@ -67,10 +67,10 @@ export default function PosterViewer({
         {poster && src && (
           <div className="flex h-full flex-col">
             <DialogHeader className="border-b border-white/10 px-5 py-4 text-left">
-              <DialogTitle className="font-serif text-xl tracking-wide text-white">
+              <DialogTitle className="font-heading text-xl font-semibold tracking-wide text-white">
                 {poster.title}
               </DialogTitle>
-              <DialogDescription className="mt-1 text-xs uppercase tracking-[0.28em] text-white/45">
+              <DialogDescription className="mt-1 text-xs uppercase tracking-[0.28em] text-shell-yellow/80">
                 {stationTitle} · Poster {poster.id}
               </DialogDescription>
             </DialogHeader>

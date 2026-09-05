@@ -19,14 +19,14 @@ export default function StationSelector({
           onClick={() => onSelect(s.station)}
           className={`w-full rounded-xl border px-3 py-3 text-left transition-colors focus-ring ${
             active === s.station
-              ? 'border-neutral-900 bg-neutral-950 text-white'
+              ? 'border-shell-red bg-shell-red text-white'
               : 'border-transparent hover:border-neutral-200 hover:bg-white'
           }`}
         >
-          <div className={`text-xs tracking-[0.28em] ${active === s.station ? 'text-white/55' : 'text-neutral-500'}`}>
+          <div className={`text-xs tracking-[0.28em] ${active === s.station ? 'text-shell-yellow' : 'text-neutral-500'}`}>
             {String(s.station).padStart(2, '0')}
           </div>
-          <div className={`mt-1 font-serif text-lg tracking-wide ${active === s.station ? 'text-white' : 'text-neutral-950'}`}>
+          <div className={`mt-1 font-heading text-lg font-semibold tracking-wide ${active === s.station ? 'text-white' : 'text-neutral-950'}`}>
             {s.title}
           </div>
           <div className={`mt-2 text-xs uppercase tracking-[0.22em] ${active === s.station ? 'text-white/55' : 'text-neutral-500'}`}>
